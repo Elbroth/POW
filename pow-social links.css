@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+}
+#maincontent{
+    margin: 100px;
+    background-color: darkgray;
+    text-align: center;
+
+}
+h2{
+    font-size: 18px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    color: #82ff78;
+
+}
+h1{
+    margin-bottom: 8px;
+    color: white;
+}
+
+img{
+    border-radius: 50%;
+}
+
+.github, .Frontend, .LinkedIn, .X, .IG{
+    background-color: #909090;
+    margin: 0px 90px 15px 90px;
+    padding: 15px;
+
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
