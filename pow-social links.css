@@ -1,24 +1,39 @@
 body{
-    background-color: black;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bolder;
+    background-color: #141414;
+    display: flex;
+    
 }
 #maincontent{
-    margin: 100px;
-    background-color: darkgray;
+    margin: 100px auto;
+    background-color: #1F1F1F;
     text-align: center;
-
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+   
+   
 }
 h2{
     font-size: 18px;
     margin-top: 8px;
     margin-bottom: 20px;
-    color: #82ff78;
+    color: #C4F82A;
+    font-weight: 600;
 
 }
 h1{
     margin-bottom: 8px;
     color: white;
+    font-style: 700;
+}
+
+h3{
+    color: white;
+    padding: 15px;
+    font-size: 14px;
+    
+    
 }
 
 img{
@@ -26,9 +41,15 @@ img{
 }
 
 .github, .Frontend, .LinkedIn, .X, .IG{
-    background-color: #909090;
-    margin: 0px 90px 15px 90px;
+    background-color: #333333;
+    margin-bottom: 15px;
     padding: 15px;
+    text-align: center;
+    border-radius: 8px;
+    margin-left: 35px;
+    margin-right: 35px;
+    border: 10px;
+   
 
 
 }
@@ -36,5 +57,18 @@ img{
 a{
     text-decoration: none;
     color: white;
+    font-size: 14px;
     font-weight: bold;
 }
+
+
+.IG:hover, .github:hover, .Frontend:hover, .X:hover, .LinkedIn:hover{
+    background-color: #C4F82A;
+    
+}
+
+.IG:hover a, .github:hover a, .Frontend:hover a, .X:hover a, .LinkedIn:hover a{
+    color: #1F1F1F;
+}
+
+
